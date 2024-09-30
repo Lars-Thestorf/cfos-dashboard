@@ -1,2 +1,10 @@
-# cfos-dashboard
-cfos charging manager dashboard on an 64x32 Led Matrix
+# cFos-dashboard
+cFos Charging Manager dashboard on an HUB75 64x32 RGB Led Matrix with an esp32
+
+This polls the cFos Charging Managers http api and displays the live energy flow.
+
+# Setup
+- have Arduino IDE installed
+- have "esp32" by "Espressif Systems" installed in Boards Manager
+- install "ESP32 HUB75 LED MATRIX PANEL DMA Display" by "MrCodetastic" in Library Manager
+- install "Arduino_JSON" by "Arduino" in Library Manager
