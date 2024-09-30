@@ -1,6 +1,6 @@
 # cFos-dashboard
 cFos Charging Manager dashboard on an HUB75 64x32 RGB Led Matrix with an esp32
-
+![Image shows solar power and grid powering house](images/live.jpg "Live energy flow")
 This polls the cFos Charging Managers http api and displays the live energy flow.
 
 # Setup
