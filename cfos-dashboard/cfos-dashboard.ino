@@ -207,7 +207,9 @@ void loop() {
       }
 
       //arrow color
-      int highest = max(max(grid, generation), max(consumption, vehicle));
+      int highest = max(max(abs(grid), abs(generation)), max(abs(consumption), abs(vehicle)));
+
+      Serial.printf("Rendering grid: %d, generation: %d, consumption: %d, vehicle: %d, highest: %d\n", grid, generation, consumption, vehicle, highest);
 
       dma_display->clearScreen();
       dma_display->drawIcon(grid_icon, 2,2,8,12);
